@@ -1,0 +1,49 @@
+{
+  "id": "kraywell-compendium",
+  "name": "kraywell-compendium",
+  "title": "Kraywell Compendium",
+  "description": "Kraywell simple compendium contains like ru translate KibbleTasty's system",
+  "authors": [
+    {
+      "name": "Kraywell"
+    }
+  ],
+  "version": "3.0.1",
+  "minimumCoreVersion": "10",
+  "compatibleCoreVersion": "10",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  "packs": [
+    {
+      "name": "items",
+      "label": "! Kraywell Compendium Предметы",
+      "path": "packs/items.db",
+      "private": false,
+      "entity": "Item",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "journal",
+      "label": "! Kraywell Compendium Крафтинг",
+      "path": "packs/journals.db",
+      "private": false,
+      "entity": "JournalEntry",
+      "type": "JournalEntry",
+      "system": "dnd5e"
+    },
+    {
+      "name": "rolltables",
+      "label": "! Kraywell Compendium Таблицы",
+      "path": "packs/tables.db",
+      "private": false,
+      "entity": "RollTable",
+      "type": "RollTable",
+      "system": "dnd5e"
+    }
+  ],
+  "system": [],
+  "relationships": []
+}
