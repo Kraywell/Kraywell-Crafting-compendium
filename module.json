@@ -5,21 +5,33 @@
   "authors": [
     {
       "name": "Kraywell",
-      "discord": "Kraywell#1402",
+      "discord": "Kraywell",
       "flags": {}
     }
   ],
   "url": "https://github.com/Kraywell/Kraywell-Crafting-compendium",
-  "version": "3.3.0",
+  "version": "4.0.0",
   "compatibility": {
-    "minimum": "10",
-    "verified": "10"
+    "minimum": "11",
+    "verified": "11",
+    "maximum": "11"
   },
+  "packFolders": [
+    {
+      "name": "! Kraywell Crafting Compendium",
+      "sorting": "m",
+      "color": "#850101",
+      "packs": [
+        "items",
+        "journal",
+        "rolltables"]
+    }
+  ],
   "packs": [
     {
       "name": "items",
-      "label": "! Kraywell Compendium Предметы",
-      "path": "packs/items.db",
+      "label": "!KC Предметы",
+      "path": "packs/items",
       "private": false,
       "type": "Item",
       "system": "dnd5e",
@@ -27,8 +39,8 @@
     },
     {
       "name": "journal",
-      "label": "! Kraywell Compendium Крафтинг",
-      "path": "packs/journals.db",
+      "label": "!KC Крафтинг",
+      "path": "packs/journals",
       "private": false,
       "type": "JournalEntry",
       "system": "dnd5e",
@@ -36,8 +48,8 @@
     },
     {
       "name": "rolltables",
-      "label": "! Kraywell Compendium Таблицы",
-      "path": "packs/tables.db",
+      "label": "!KC Таблицы",
+      "path": "packs/tables",
       "private": false,
       "type": "RollTable",
       "system": "dnd5e",
