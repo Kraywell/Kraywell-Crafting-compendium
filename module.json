@@ -5,12 +5,11 @@
   "authors": [
     {
       "name": "Kraywell",
-      "discord": "Kraywell",
-      "flags": {}
+      "discord": "Kraywell"
     }
   ],
   "url": "https://github.com/Kraywell/Kraywell-Crafting-compendium",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "compatibility": {
     "minimum": "11",
     "verified": "11",
@@ -24,7 +23,9 @@
       "packs": [
         "items",
         "journal",
-        "rolltables"]
+        "rolltables"
+      ],
+      "folders": []
     }
   ],
   "packs": [
@@ -32,28 +33,34 @@
       "name": "items",
       "label": "!KC Предметы",
       "path": "packs/items",
-      "private": false,
       "type": "Item",
       "system": "dnd5e",
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "journal",
       "label": "!KC Крафтинг",
       "path": "packs/journals",
-      "private": false,
       "type": "JournalEntry",
       "system": "dnd5e",
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "rolltables",
       "label": "!KC Таблицы",
       "path": "packs/tables",
-      "private": false,
       "type": "RollTable",
       "system": "dnd5e",
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "relationships": [],
