@@ -1,19 +1,20 @@
 {
   "id": "kraywell-compendium",
   "title": "Kraywell Compendium",
-  "description": "Kraywell simple compendium contains like ru translate KibbleTasty's system",
+  "description": "<p>Kraywell simple compendium contains like ru translate KibbleTasty's system</p>",
   "authors": [
     {
       "name": "Kraywell",
-      "discord": "Kraywell"
+      "discord": "Kraywell",
+      "flags": {}
     }
   ],
   "url": "https://github.com/Kraywell/Kraywell-Crafting-compendium",
-  "version": "4.5.0",
+  "version": "4.6.0",
   "compatibility": {
     "minimum": "11",
-    "verified": "11",
-    "maximum": "12"
+    "verified": "13",
+    "maximum": "13"
   },
   "packFolders": [
     {
@@ -31,7 +32,7 @@
   "packs": [
     {
       "name": "items",
-      "label": "!KC Предметы",
+      "label": "🛠️KC Предметы",
       "path": "packs/items",
       "type": "Item",
       "system": "dnd5e",
@@ -42,7 +43,7 @@
     },
     {
       "name": "journal",
-      "label": "!KC Крафтинг",
+      "label": "🛠️KC Справочник",
       "path": "packs/journals",
       "type": "JournalEntry",
       "system": "dnd5e",
@@ -53,7 +54,7 @@
     },
     {
       "name": "rolltables",
-      "label": "!KC Таблицы",
+      "label": "🛠️KC Таблицы",
       "path": "packs/tables",
       "type": "RollTable",
       "system": "dnd5e",
@@ -63,7 +64,7 @@
       }
     }
   ],
-  "relationships": [],
   "manifest": "https://github.com/Kraywell/Kraywell-Crafting-compendium/releases/download/latest/module.json",
-  "download": "https://github.com/Kraywell/Kraywell-Crafting-compendium/releases/download/latest/module.zip"
+  "download": "https://github.com/Kraywell/Kraywell-Crafting-compendium/releases/download/latest/module.zip",
+  "flags": {}
 }
