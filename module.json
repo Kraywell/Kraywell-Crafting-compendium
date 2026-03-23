@@ -1,16 +1,16 @@
 {
   "id": "kraywell-compendium",
   "title": "Kraywell Compendium",
-  "description": "<p>Kraywell simple compendium contains like ru translate KibbleTasty's system</p>",
+  "description": "<p>Russian translate of KibbleTasty Crafting System (1.0.6a) + Modular Crafting System (in development).</p><p></p>",
   "authors": [
     {
       "name": "Kraywell",
-      "discord": "Kraywell",
+      "discord": "kraywell",
       "flags": {}
     }
   ],
   "url": "https://github.com/Kraywell/Kraywell-Crafting-compendium",
-  "version": "4.6.0",
+  "version": "5.0.0",
   "compatibility": {
     "minimum": "11",
     "verified": "13",

@@ -1,8 +1,15 @@
-2025/11/24-12:54:11.976982 fb3ec7c0f060 Recovering log #2701
-2025/11/24-12:54:11.982207 fb3ec7c0f060 Delete type=0 #2701
-2025/11/24-12:54:11.982235 fb3ec7c0f060 Delete type=3 #2700
-2025/11/24-13:00:08.499636 fb3ec640f060 Level-0 table #2705: started
-2025/11/24-13:00:08.500243 fb3ec640f060 Level-0 table #2705: 0 bytes OK
-2025/11/24-13:00:08.503327 fb3ec640f060 Delete type=0 #2703
-2025/11/24-13:00:08.503422 fb3ec640f060 Manual compaction at level-0 from '!folders!8pQ8hYe1afIsD1IG' @ 72057594037927935 : 1 .. '!tables.results!zZFwjqvPwVfHST1u.qQI1P1PlLiigWq6Q' @ 0 : 0; will stop at (end)
-2025/11/24-13:00:08.503468 fb3ec640f060 Manual compaction at level-1 from '!folders!8pQ8hYe1afIsD1IG' @ 72057594037927935 : 1 .. '!tables.results!zZFwjqvPwVfHST1u.qQI1P1PlLiigWq6Q' @ 0 : 0; will stop at (end)
+2026/03/23-02:47:23.188968 e6d5a320f060 Recovering log #3199
+2026/03/23-02:47:23.194185 e6d5a320f060 Delete type=0 #3199
+2026/03/23-02:47:23.194214 e6d5a320f060 Delete type=3 #3198
+2026/03/23-07:16:25.520493 e6d59ae0f060 Level-0 table #3203: started
+2026/03/23-07:16:25.529414 e6d59ae0f060 Level-0 table #3203: 27051 bytes OK
+2026/03/23-07:16:25.533770 e6d59ae0f060 Delete type=0 #3201
+2026/03/23-07:16:25.539554 e6d59ae0f060 Manual compaction at level-0 from '!folders!8pQ8hYe1afIsD1IG' @ 72057594037927935 : 1 .. '!tables.results!zZFwjqvPwVfHST1u.qQI1P1PlLiigWq6Q' @ 0 : 0; will stop at (end)
+2026/03/23-07:16:25.539601 e6d59ae0f060 Manual compaction at level-1 from '!folders!8pQ8hYe1afIsD1IG' @ 72057594037927935 : 1 .. '!tables.results!zZFwjqvPwVfHST1u.qQI1P1PlLiigWq6Q' @ 0 : 0; will stop at '!tables!zZFwjqvPwVfHST1u' @ 8275 : 1
+2026/03/23-07:16:25.539605 e6d59ae0f060 Compacting 1@1 + 1@2 files
+2026/03/23-07:16:25.594398 e6d59ae0f060 Generated table #3204@1: 590 keys, 120188 bytes
+2026/03/23-07:16:25.594417 e6d59ae0f060 Compacted 1@1 + 1@2 files => 120188 bytes
+2026/03/23-07:16:25.596365 e6d59ae0f060 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/03/23-07:16:25.596432 e6d59ae0f060 Delete type=2 #2615
+2026/03/23-07:16:25.596482 e6d59ae0f060 Delete type=2 #3203
+2026/03/23-07:16:25.600563 e6d59ae0f060 Manual compaction at level-1 from '!tables!zZFwjqvPwVfHST1u' @ 8275 : 1 .. '!tables.results!zZFwjqvPwVfHST1u.qQI1P1PlLiigWq6Q' @ 0 : 0; will stop at (end)
